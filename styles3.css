@@ -215,15 +215,25 @@ min-width: 343px;
 max-width: 343px;
 padding-left: 10px;
 }
+.books-link {
+    min-width: 343px;
+        max-width: 343px;
+        width: 100%;
+}
 .book1 {
     padding-left: 8px;
 }
+    .book4,
+    .book5 {
+        display: none;
+    }
 
     .main {
         min-width: 343px;
         max-width: 343px;
     }
-    .main-link {
+    .main-link,
+    .books-link {
         display: flex;
         justify-content: start;
         padding: 10px;
@@ -311,12 +321,16 @@ padding-left: 10px;
     .buttons {
         min-width: 911px;
     }
-    .main-link {
+    .main-link,
+    .books-link {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         flex-grow: 1;
         padding-top: 30px;
+        min-width: 911px;
+        max-width: 911px;
+
     }
     .img1,
     .img2,
@@ -328,13 +342,18 @@ padding-left: 10px;
         height: 320px;
         font-size: 70px;
     }
-    .img7
+    .img7,
+    .img100,
+    .img101
     {
         height: 200px;
         width:  100%;
         padding-bottom: 20px;
     }
-    
+    .text,
+    .text-title {
+        padding-left: 10px;
+    }
 
     .book3 {
         display: none;
@@ -426,13 +445,19 @@ padding-left: 10px;
     .img5,
     .img6,
     .img7,
-    .img8 {
+    .img8,
+    .img100,
+    .img101 {
         width: 220px;
         height: 280px;
     }
     
     .book3 {
         display: none;
+    }
+    .text,
+    .text-title {
+        padding-left: 30px;
     }
     .article,
     .main-images {
@@ -447,7 +472,8 @@ padding-left: 10px;
         justify-content: center;
         width: 100%;
     }
-    .main-link {
+    .main-link,
+    .books-link {
         display: flex;
         justify-content: center;
         width: 100%;

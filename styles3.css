@@ -328,6 +328,9 @@ padding-left: 10px;
         flex-wrap: wrap;
         flex-grow: 1;
         padding-top: 30px;
+        min-width: 911px;
+        max-width: 911px;
+
     }
     .img1,
     .img2,
@@ -347,7 +350,10 @@ padding-left: 10px;
         width:  100%;
         padding-bottom: 20px;
     }
-    
+    .text,
+    .text-title {
+        padding-left: 10px;
+    }
 
     .book3 {
         display: none;
@@ -448,6 +454,10 @@ padding-left: 10px;
     
     .book3 {
         display: none;
+    }
+    .text,
+    .text-title {
+        padding-left: 30px;
     }
     .article,
     .main-images {

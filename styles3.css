@@ -339,7 +339,9 @@ padding-left: 10px;
         height: 320px;
         font-size: 70px;
     }
-    .img7
+    .img7,
+    .img100,
+    .img101
     {
         height: 200px;
         width:  100%;
@@ -437,7 +439,9 @@ padding-left: 10px;
     .img5,
     .img6,
     .img7,
-    .img8 {
+    .img8,
+    .img100,
+    .img101 {
         width: 220px;
         height: 280px;
     }

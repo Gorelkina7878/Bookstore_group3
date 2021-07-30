@@ -52,12 +52,12 @@ text-align: center;}
 
 .buttons {
     display: grid;
-       grid-template-rows: 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 60%;
     row-gap: 10%;
     justify-content: center;
     align-items: flex-start;
-  justify-items: stretch;
+    justify-items: stretch;
 }
 
 .button1 {     
@@ -75,8 +75,9 @@ color: #FFFFFF;
 Font-style: Montserrat;
 Font-style: SemiBold;
 border-radius: 5px;
-}  
-h6{
+}
+
+h6 {
     font-family: Montserrat;
 font-style: Bold;
 font-size: 16px;
@@ -129,13 +130,9 @@ Line-height: 200px;
 Line-height: 100%;
 text-align: center
 }
-.container{
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 70% 8% 8%;
-    grid-gap: 10px;
+.container {
+    display: flex;
     justify-content: center;
-    justify-items: center;
 }
 .name1, .name2, .name3 {
     font-family: Playfair +Display;
@@ -144,15 +141,16 @@ font-size: 16px;
 Line-height: 21px;
 Line-height: 100%;
 text-align: left;
+padding-bottom: 20px;
 }
 
 .familyname1, .familyname2, .familyname3 {
     font-family: Montserrat;
-   font-style: Body S;
+    font-style: Body S;
 font-size: 12px;
 Line-height: 17px;
 Line-height: 140%;
-align-self: left;
+text-align: left;
 Color: #4F4F4F;
 }
 
@@ -162,65 +160,379 @@ Font-style: SemiBold;
 Font-size: 12px;
 Line-height: 15px;
 Line-height: 100%;
-Align: Left;
+text-align: Left;
 Vertical-align: Top;
 Color: #D96F6E;
 }
+    .button1,
+    .button2 {
+        width: 296px;
+        height: 40px;
+    }
+    .button3,
+    .button4 {
+        width: 128px;
+        height: 24px;
+    }
+    
+    
+
+@media screen and (max-width: 399px) {
+    .img1 {
+        width: 144px;
+        height: 216px;
+    }
+    .img2 {
+        width: 142px;
+    }
+    .img3 {
+        width: 40px;
+        height: 216px;
+    }
+    .book3 {
+        width: 200px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+    
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+    .pict,
+    .title-text
+    {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    min-width: 343px;
+    max-width: 343px;
+    justify-content: center;
+    width: 100%;
+    }
+    
+    .main {
+        display: flex;
+        min-width: 343px;
+    max-width: 343px;
+    width: 100%;
+    }
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 343px;
+    max-width: 343px;
+    width: 100%;
+    }
+
+.writer,
+.edition {
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.book1,
+.book2 {
+    width: 144px;
+}
+
+    .icon-F,
+    .icon-insta,
+    .icon-twitter,
+    .icon-letter,
+    .icon-icon_last  {
+        width: 40px;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+    max-width: 343px;
+    }
+    .buttons3,
+    .buttons2,
+    .text {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+    max-width: 343px;
+    }
+    .book4 {
+        display: none;
+    }
+    .buttons3-text {
+display: flex;
+width: 100%;
+justify-content: center;
+flex-grow: 1;
+    }
+
+    .text {
+        width: 100%;
+    text-align: center;
+    line-height: 8px;
+    min-width: 343px;
+    max-width: 343px;
+    }
+    
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 1023px) {
+    .container,
+    .books {
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 911px;
+        max-width: 911px;
+    }
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .pict {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 911px;
+    max-width: 911px;
+    justify-content: center;
+    width: 100%;
+    }
+    .img {
+        width: 300px;
+    }
+    .img 
+    .title-text {
+        width: 100%;
+    text-align: center;
+    line-height: 8px;
+    }
+    .buttons3 {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    }
+    .main {
+        display: flex;
+        min-width: 911px;
+    max-width: 911px;
+    width: 100%;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    }
+    .book3 {
+        display: none;
+    }
+    .book1,
+.book2 {
+    width: 144px;
+}
+    .main {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    }
+    .buttons,
+    .buttons3,
+    .buttons2 {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    }
+
+    .main,
+    .text {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+    max-width: 911px;
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .container,
+    .books {
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+    .book1,
+.book2 {
+    width: 200px;
+}
+.img1,
+.img2,
+.img4 {
+    width: 200px;
+}
+.img {
+    width: 300px;
+}
+    .book3 {display: none;}
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+
+    .pict {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1500px;
+    max-width: 1500px;
+    justify-content: center;
+    width: 100%;
+    }
+
+
+
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 1500px;
+    max-width: 1500px;
+    }
+    
+    .buttons3 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        min-width: 1500px;
+    max-width: 1500px;
+    }
+    .buttons,
+    .buttons2 {
+        display: flex;
+        min-width: 1500px;
+    max-width: 1500px;
+        justify-content: space-evenly;
+    }
+    .main,
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: 1500px;
+    max-width: 1500px;
+    width: 100%;
+    }
+}
+
     </style>
 </head>
 
 <body>
     
-    <div><img class="pict" src="image/woman.svg" alt="woman"></div>
-    <h2>Conversations with Friends</h2>
-    <div><p class="writer"> Sally Rooney</p> 
+    <div class="title">
+        <div class="pict"><img src="assets2/image4.svg" alt="woman" class="img"></div>
+        
+        <div class="title-text">
+            <h2>Conversations with Friends</h2>
+            <p class="writer"> Sally Rooney</p>
+            <p class="edition">Paperback | 2nd Edition</p>
+        </div>
     </div>
-    <div><p class="edition">Paperback | 2nd Edition</p> 
-    </div>
-    <div><h2>€12.90</h2> 
-    </div>
-     
-    <div>
-    <a>A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s enticing...</a><a href="https://itgirlschool.ru/"><span style="color: Gray;"><b>read more</b></span></a></div>
+    
+    
+    <div class="price"><h2>€12.90</h2> </div>
+    
 
-          <div class="buttons">
+
+    <div class="main">
+    <a>A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s enticing...</a>
+    <a href="https://itgirlschool.ru/">
+        <span style="color: Gray;">
+            <b>read more</b>
+        </span>
+    </a>
+    </div>
+
+        <div class="buttons">
         <a href="САЙТЫ.html" class="button1">ADD TO CART</a>
         <a href="САЙТЫ.html" class="button2">WISHLIST</a>
         </div>
-   
-        <div><p class="publisher"> <br>Publisher: Faber & Faber <br>Date Published: 1 March 2018 <br>ISBN13: 9780571333134</p> 
-                    <h6>Genres:</h6></div>
+
+        <div class="text">
+            <p class="publisher"><br>Publisher: Faber & Faber <br>Date Published: 1 March 2018 <br>ISBN13: 9780571333134</p>
+            <h6>Genres:</h6>
+        </div>
+
     <div class="buttons2">      
     <a href="САЙТЫ.html" class="button3">Contemporary</a>
     <a href="САЙТЫ.html" class="button4">General Fiction</a>
+    </div>
+
+    
+    <h6 class="text">Share this book:</h6>
+
+<div class="buttons3">
+    <a href="САЙТЫ.html"><img src="assets2/facebook.svg" alt="FB" class="icon-F"></a>
+    <a href="САЙТЫ.html"><img src="assets2/instagram.svg" alt="FB" class="icon-insta"></a>
+    <a href="САЙТЫ.html"><img src="assets2/twitter.svg" alt="FB" class="icon-twitter" ></a>
+    <a href="САЙТЫ.html"><img src="assets2/email.svg" alt="FB" class="icon-letter" ></a>
+    <a href="САЙТЫ.html"><img src="assets2/link.svg" alt="FB" class="icon-icon_last"></a>
 </div>
 
-    <h6>Share this book:</H6>
-      
-<div class="buttons3"> 
-     <a href="САЙТЫ.html"><img class="icon-F" img src="image/facebook.svg" alt="FB"></a>
-     <a href="САЙТЫ.html"><img class="icon-insta" src="image/instagram.svg" alt="FB"></a>
-     <a href="САЙТЫ.html"><img class="icon-twitter" src="image/twitter.svg" alt="FB"></a>
-     <a href="САЙТЫ.html"><img class="icon-letter" src="image/email.svg" alt="FB"></a>
-     <a href="САЙТЫ.html"><img class="icon-icon_last" src="image/link.svg" alt="FB"></a>
-</div>
-
-    <h3>Similar Publications:</h3>
+    <h3 class="text">Similar Publications:</h3>
     
     <div class="container">
-        <img class="img1" src="image/hands.svg" alt="hands">
-        <img class="img2" src="image/lags.svg" alt="lags">
-        <img class="img3" src="image/thirdcard.svg" alt="other">
+        <div class="book1"><img class="img1" src="assets2/image.svg" alt="hands">
             <a class="name1">Promising Young Women</a>
-            <a class="name2">Careers for Women</a>
-            <a class="name3">Inside these Walls</a>
             <a class="familyname1">Caroline O’Donoghue</a>
-            <a class="familyname2">Joanna Scott</a>
-            <a class="familyname3">Rebecca Coleman</a>
             <a class="price1">€9.80</a>
+        </div>
+        <div class="book2"><img class="img2" src="assets2/image2.svg" alt="lags">
+            <a class="name2">Careers for Women</a>
+            <a class="familyname2">Joanna Scott</a>
             <a class="price2">€10.50</a>
+        </div>
+        <div class="book3"><img class="img3" src="assets2/image5.svg" alt="other">
+            <a class="name3">Inside these Walls</a>
+            <a class="familyname3">Rebecca Coleman</a>
             <a class="price3">€8.20</a>
         </div>
-
+        <div class="book4"><img class="img4" src="assets2/image1.svg" alt="other">
+                <a class="name3">Inside these Walls</a>
+                <a class="familyname3">Rebecca Coleman</a>
+                <a class="price3">€8.20</a>
+        </div>
     </div>
+
 </body>

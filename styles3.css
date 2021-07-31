@@ -148,7 +148,36 @@ a {
     flex-grow: 1;
 }
 
-
+.flexcontainer_footer_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1); 
+}
+.flexp_s {
+    justify-self: start;
+    flex-grow: 1;
+    margin: 16px;
+}
+.flexcontainer_head3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15); 
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
 
 
 @media screen and (max-width: 399px) {
@@ -278,6 +307,28 @@ padding-left: 10px;
     .img9 {
         height: 200px;
     }
+
+    .flexcontainer_head3 {
+        display: flex;
+        min-width: 343px;
+        max-width: 343px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 48px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15); 
+    }
+    .flexcontainer_footer_3 {
+        display: flex;
+        min-width: 343px;
+        max-width: 343px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1); 
+    }
 }
 
 
@@ -382,6 +433,27 @@ padding-left: 10px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .flexcontainer_head3 {
+        display: flex;
+        min-width: 911px;
+        max-width: 911px;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 48px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15); 
+    }
+    .flexcontainer_footer_3 {
+        display: flex;
+        min-width: 911px;
+        max-width: 911px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        height: 56px;
+        background: #FFFFFF;
+        box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1); 
     }
     
 }
@@ -497,5 +569,11 @@ padding-left: 10px;
     }
     .picture {
         min-width: 1500px;
+    }
+    .flexcontainer_head3 {
+        display: none;
+    }
+    .flexcontainer_footer_3 {
+        display: none;
     }
 }

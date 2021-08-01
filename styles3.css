@@ -522,12 +522,15 @@ padding-left: 10px;
     .img4,
     .img5,
     .img6,
-    .img7,
     .img8,
     .img100,
     .img101 {
         width: 220px;
         height: 280px;
+    }
+    .img7 {
+        width: 220px;
+        height: 270px;
     }
     
     .text,

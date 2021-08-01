@@ -406,14 +406,14 @@ padding-left: 10px;
         width:  100%;
         padding-bottom: 20px;
     }
+    .img8 {
+        height: 210px;
+    }
     .text,
     .text-title {
         padding-left: 10px;
     }
 
-    .book3 {
-        display: none;
-    }
     .nav {
         display: flex;
         justify-content: center;
@@ -466,8 +466,6 @@ padding-left: 10px;
 
 
 @media screen and (min-width: 1024px) {
-
-
 
     .button1,
     .button2,
@@ -532,9 +530,6 @@ padding-left: 10px;
         height: 280px;
     }
     
-    .book3 {
-        display: none;
-    }
     .text,
     .text-title {
         padding-left: 30px;

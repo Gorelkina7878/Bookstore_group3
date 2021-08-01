@@ -178,11 +178,14 @@
         min-width: 320px;
         justify-content: space-around;
     }
-
 }
 
 
 @media screen and (max-width: 1023px) and (min-width:400px) {
+    body {
+        min-width: 1023px;
+        max-width: 1023px;
+    }
 
     .page__card {
         display: grid;
@@ -230,6 +233,12 @@
 }
 
 @media screen and (max-width: 399px) {
+
+
+    body {
+        min-width: 500px;
+        max-width: 500px;
+    }
 
     .page__card {
         display: grid;

@@ -1,0 +1,520 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+.flexcontainer_head3 {
+    display: flex;
+    min-width: 343px;
+    max-width: 343px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
+}
+
+.flexcontainer_footer_3 {
+    display: flex;
+    min-width: 343px;
+    max-width: 343px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+}
+
+.pict {
+    display: block;
+    margin: 10px auto 20px;
+    width: 50%;
+}
+
+h2 {
+    font-family: Playfair+Display;
+    font-style: Bold;
+    font-size: 25px;
+    Line-height: 33px;
+    Line-height: 100%;
+    text-align: center
+}
+
+.writer {
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 24px;
+    Line-height: 123%;
+    text-align: center;
+}
+
+.edition,
+.publisher {
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 12px;
+    Line-height: 17px;
+    Line-height: 140%;
+    text-align: center;
+    Color: Gray 3;
+    Fill: Solid #828282;
+}
+
+a {
+    display: block;
+    margin: 1px;
+    Font-family: Montserrat;
+    Font-style: Regular;
+    Font-size: 16px;
+    Line-height: 24px;
+    Line-height: 123%;
+    text-align: center;
+}
+
+.buttons {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 60%;
+    row-gap: 10%;
+    justify-content: center;
+    align-items: flex-start;
+    justify-items: stretch;
+}
+
+.button1 {
+    background-color: #D96F6E;
+    border: none;
+    color: #FFFFFF;
+    Font-style: Montserrat;
+    Font-style: SemiBold;
+    border-radius: 5px;
+}
+
+.button2 {
+    background-color: #F3A492;
+    border: none;
+    color: #FFFFFF;
+    Font-style: Montserrat;
+    Font-style: SemiBold;
+    border-radius: 5px;
+}
+
+h6 {
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 16px;
+    Line-height: 20px;
+    Line-height: 100%;
+    text-align: center;
+    color: #4F4F4F;
+}
+
+.buttons2 {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 100% 100%;
+    grid-gap: 4px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+.button3 {
+    background: linear-gradient(to left, #F2D05C, #F3A492);
+    border: none;
+    Font-style: Montserrat;
+    Font-style: SemiBold;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.button4 {
+    background: linear-gradient(to left, #53889D, #BBD1D9);
+    border: none;
+    Font-style: Montserrat;
+    Font-style: SemiBold;
+    color: #FFFFFF;
+    border-radius: 5px;
+}
+
+
+.buttons3 {
+    display: grid;
+    grid-template-columns: 7% 7% 7% 7% 7%;
+    grid-template-rows: 100% 100%;
+    grid-gap: 1px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+h3 {
+    font-family: Playfair+Display;
+    font-style: Bold;
+    font-size: 16px;
+    Line-height: 200px;
+    Line-height: 100%;
+    text-align: center
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.name1,
+.name2,
+.name3 {
+    font-family: Playfair +Display;
+    font-style: Bold;
+    font-size: 16px;
+    Line-height: 21px;
+    Line-height: 100%;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.familyname1,
+.familyname2,
+.familyname3 {
+    font-family: Montserrat;
+    font-style: Body S;
+    font-size: 12px;
+    Line-height: 17px;
+    Line-height: 140%;
+    text-align: left;
+    Color: #4F4F4F;
+}
+
+.price1,
+.price2,
+.price3 {
+    Font-family: Montserrat;
+    Font-style: SemiBold;
+    Font-size: 12px;
+    Line-height: 15px;
+    Line-height: 100%;
+    text-align: Left;
+    Vertical-align: Top;
+    Color: #D96F6E;
+}
+
+.button1,
+.button2 {
+    width: 296px;
+    height: 40px;
+}
+
+.button3,
+.button4 {
+    width: 128px;
+    height: 24px;
+}
+
+
+
+@media screen and (max-width: 399px) {
+    .img1 {
+        width: 144px;
+        height: 216px;
+    }
+
+    .img2 {
+        width: 142px;
+    }
+
+    .img3 {
+        width: 40px;
+        height: 216px;
+    }
+
+    .book3 {
+        width: 200px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+    .pict,
+    .title-text {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+        min-width: 343px;
+        max-width: 343px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        min-width: 343px;
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 343px;
+        max-width: 343px;
+        width: 100%;
+    }
+
+    .writer,
+    .edition {
+        display: flex;
+        text-align: center;
+        width: 100%;
+    }
+
+    .book1,
+    .book2 {
+        width: 144px;
+    }
+
+    .icon-F,
+    .icon-insta,
+    .icon-twitter,
+    .icon-letter,
+    .icon-icon_last {
+        width: 40px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+    .buttons3,
+    .buttons2,
+    .text {
+        display: flex;
+        justify-content: center;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+    .book4 {
+        display: none;
+    }
+
+    .buttons3-text {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .text {
+        width: 100%;
+        text-align: center;
+        line-height: 8px;
+        min-width: 343px;
+        max-width: 343px;
+    }
+
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 1023px) {
+
+    .container,
+    .books {
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .pict {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 911px;
+        max-width: 911px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    .img .title-text {
+        width: 100%;
+        text-align: center;
+        line-height: 8px;
+    }
+
+    .buttons3 {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .main {
+        display: flex;
+        min-width: 911px;
+        max-width: 911px;
+        width: 100%;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .book3 {
+        display: none;
+    }
+
+    .book1,
+    .book2 {
+        width: 144px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .buttons,
+    .buttons3,
+    .buttons2 {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+    }
+
+    .main,
+    .text {
+        display: flex;
+        justify-content: center;
+        min-width: 911px;
+        max-width: 911px;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    .container,
+    .books {
+        display: flex;
+        justify-content: space-evenly;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+
+    .book1,
+    .book2 {
+        width: 200px;
+    }
+
+    .img1,
+    .img2,
+    .img4 {
+        width: 200px;
+    }
+
+    .img {
+        width: 300px;
+    }
+
+    .book3 {
+        display: none;
+    }
+
+    .title {
+        display: flex;
+        width: 100%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+
+    .pict {
+        display: flex;
+        flex-wrap: wrap;
+        min-width: 1500px;
+        max-width: 1500px;
+        justify-content: center;
+        width: 100%;
+    }
+
+
+
+    .price {
+        display: flex;
+        justify-content: center;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+
+    .buttons3 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        min-width: 1500px;
+        max-width: 1500px;
+    }
+
+    .buttons,
+    .buttons2 {
+        display: flex;
+        min-width: 1500px;
+        max-width: 1500px;
+        justify-content: space-evenly;
+    }
+
+    .main,
+    .text {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        min-width: 1500px;
+        max-width: 1500px;
+        width: 100%;
+    }
+}

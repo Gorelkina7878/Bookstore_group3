@@ -183,10 +183,7 @@ p {
 
 
 @media screen and (max-width: 399px) {
-    body {
-        min-width: 343px;
-        max-width: 343px;
-    }
+    
 
     .button1,
     .button2,
@@ -259,9 +256,9 @@ padding-left: 10px;
 .book1 {
     padding-left: 8px;
 }
-    .book4,
-    .book5 {
-        display: none;
+
+    .books {
+        overflow-x: auto;
     }
 
     .main {
@@ -302,18 +299,19 @@ padding-left: 10px;
         height: 130px;
     }
     .img7 {
+        height: 170px;
+        width: 124px;
+        padding-bottom: 20px;
+    }
+
+    .img8,
+    .img100,
+    .img101 {
         height: 180px;
         width: 124px;
         padding-bottom: 20px;
     }
-    .img8 {
-        height: 200px;
-        width: 124px;
-    }
     
-    .img9 {
-        height: 200px;
-    }
 
     .flexcontainer_head3 {
         display: flex;
@@ -341,10 +339,6 @@ padding-left: 10px;
 
 @media screen and (min-width: 400px) and (max-width: 1023px) {
     
-    body {
-        min-width: 911px;
-        max-width: 911px;
-    }
 
     .nav,
     .main,
@@ -412,14 +406,14 @@ padding-left: 10px;
         width:  100%;
         padding-bottom: 20px;
     }
+    .img8 {
+        height: 210px;
+    }
     .text,
     .text-title {
         padding-left: 10px;
     }
 
-    .book3 {
-        display: none;
-    }
     .nav {
         display: flex;
         justify-content: center;
@@ -472,12 +466,6 @@ padding-left: 10px;
 
 
 @media screen and (min-width: 1024px) {
-
-    body {
-        min-width: 1500px;
-        max-width: 1500px;
-    }
-
 
     .button1,
     .button2,
@@ -534,17 +522,17 @@ padding-left: 10px;
     .img4,
     .img5,
     .img6,
-    .img7,
     .img8,
     .img100,
     .img101 {
         width: 220px;
         height: 280px;
     }
-    
-    .book3 {
-        display: none;
+    .img7 {
+        width: 220px;
+        height: 270px;
     }
+    
     .text,
     .text-title {
         padding-left: 30px;
@@ -603,7 +591,7 @@ padding-left: 10px;
         width: 300px;
         min-width: 1500px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         height: 56px;
         background: #FFFFFF;

@@ -181,16 +181,14 @@
 }
 
 
-@media screen and (max-width: 1023px) and (min-width:400px) {
-    body {
-        min-width: 1023px;
-        max-width: 1023px;
-    }
+@media screen and (max-width: 1023px) and (min-width:769px) {
+
 
     .page__card {
         display: grid;
         grid-template-columns: 200pt 200pt;
         grid-auto-rows: 1fr;
+        overflow-x: auto;
 
     }
 
@@ -211,11 +209,61 @@
         display: grid;
         grid-template-columns: 200px 200px 200px;
         grid-auto-rows: 1fr 50px 50px;
+        overflow-x: auto;
     }
 
 
     .photo {
-        width: 60%
+        width: 50%
+    }
+
+    .img_book {
+        width: 200px;
+    }
+
+    .page__icons {
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        width: 500px;
+
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width:375px) {
+
+
+    .page__card {
+        display: grid;
+        grid-template-columns: 200pt 200pt;
+        grid-auto-rows: 1fr;
+        overflow-x: auto;
+
+    }
+
+    .list {
+        width: 100%
+    }
+
+    .page__container {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-auto-rows: 1fr 1fr;
+        gap: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .page__book {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-auto-rows: 1fr 50px 50px;
+        overflow-x: auto;
+    }
+
+
+    .photo {
+        width: 50%
     }
 
     .img_book {
@@ -225,25 +273,22 @@
     .page__icons {
         display: flex;
         flex-grow: 1;
-        width: 100%;
         flex-wrap: wrap;
-        min-width: 500px;
-        max-width: 500px;
+        width: 350px;
+        margin: 10px;
+
     }
+
 }
 
-@media screen and (max-width: 399px) {
 
-
-    body {
-        min-width: 500px;
-        max-width: 500px;
-    }
+@media screen and (max-width: 374px) {
 
     .page__card {
         display: grid;
         grid-template-columns: 150pt 150pt;
         grid-auto-rows: 1fr;
+        overflow-x: auto;
 
     }
 
@@ -267,7 +312,8 @@
     .page__book {
         display: grid;
         grid-template-columns: 150px 150px 150px;
-        grid-auto-rows: 1fr 50px 50px;
+        grid-auto-rows: 1fr 50pt 50pt;
+        overflow-x: auto;
     }
 
     .img_book {
@@ -277,9 +323,12 @@
     .page__icons {
         display: flex;
         flex-grow: 1;
-        width: 100%;
         flex-wrap: wrap;
-        min-width: 350px;
-        max-width: 350px;
+        width: 300px;
+
+    }
+
+    .icons {
+        padding: 10px;
     }
 }

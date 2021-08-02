@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Page</title>
+    <style>
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+.pict {
+    display: block;
+    margin: 10px auto 20px;
+    width: 50%;
+    }
+h2 {font-family: Playfair+Display;
+font-style: Bold;
+font-size: 25px;
+Line-height: 33px;
+Line-height: 100%;
+text-align: center}
+
+.writer {Font-family: Montserrat;
+Font-style: Regular;
+Font-size: 16px;
+Line-height: 24px;
+Line-height: 123%;
+text-align: center;
+}
+
+.edition, .publisher {
+Font-family: Montserrat;
+Font-style: Regular;
+Font-size: 12px;
+Line-height: 17px;
+Line-height: 140%;
+text-align: center;
+Color: Gray 3;
+Fill: Solid #828282;}
+
+a {
+    display: block;
+    margin: 1px;
+    Font-family: Montserrat;
+Font-style: Regular;
+Font-size: 16px;
+Line-height: 24px;
+Line-height: 123%;
+text-align: center;}
+
+.buttons {
+    display: grid;
+       grid-template-rows: 1fr;
+    grid-template-columns: 60%;
+    row-gap: 10%;
+    justify-content: center;
+    align-items: flex-start;
+  justify-items: stretch;
+}
+
+.button1 {     
+background-color: #D96F6E;
+border: none;
+color: #FFFFFF;
+Font-style: Montserrat;
+Font-style: SemiBold;
+border-radius: 5px;
+}
+.button2 {   
+background-color: #F3A492;
+border: none;
+color: #FFFFFF;
+Font-style: Montserrat;
+Font-style: SemiBold;
+border-radius: 5px;
+}  
+h6{
+    font-family: Montserrat;
+font-style: Bold;
+font-size: 16px;
+Line-height: 20px;
+Line-height: 100%;
+text-align: center;
+color: #4F4F4F;
+}
+
+.buttons2 {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 100% 100%;
+        grid-gap: 4px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+.button3 {
+    background: linear-gradient(to left, #F2D05C, #F3A492);
+border: none;
+Font-style: Montserrat;
+Font-style: SemiBold;
+color: #FFFFFF;
+border-radius: 5px;}
+
+.button4 {
+        background: linear-gradient(to left, #53889D , #BBD1D9);
+border: none;
+Font-style: Montserrat;
+Font-style: SemiBold;
+color: #FFFFFF;
+border-radius: 5px;}
+
+
+.buttons3 {
+    display: grid;
+    grid-template-columns: 7% 7% 7% 7% 7%;
+    grid-template-rows: 100% 100%;
+        grid-gap: 1px;
+    justify-content: center;
+    justify-items: stretch;
+}
+
+h3 {
+    font-family: Playfair+Display;
+font-style: Bold;
+font-size: 16px;
+Line-height: 200px;
+Line-height: 100%;
+text-align: center
+}
+.container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 70% 8% 8%;
+    grid-gap: 10px;
+    justify-content: center;
+    justify-items: center;
+}
+.name1, .name2, .name3 {
+    font-family: Playfair +Display;
+font-style: Bold;
+font-size: 16px;
+Line-height: 21px;
+Line-height: 100%;
+text-align: left;
+}
+
+.familyname1, .familyname2, .familyname3 {
+    font-family: Montserrat;
+   font-style: Body S;
+font-size: 12px;
+Line-height: 17px;
+Line-height: 140%;
+align-self: left;
+Color: #4F4F4F;
+}
+
+.price1, .price2, .price3 {
+Font-family: Montserrat;
+Font-style: SemiBold;
+Font-size: 12px;
+Line-height: 15px;
+Line-height: 100%;
+Align: Left;
+Vertical-align: Top;
+Color: #D96F6E;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 812px) {
+    .pict,
+    .buttons,
+    .buttons2,
+    .buttons3,
+    .container,
+    {
+        min-width: 911px;
+        max-width: 911px;
+    }
+    </style>
+</head>
+
+<body>
+    
+    <div><img class="pict" src="image/woman.svg" alt="woman"></div>
+    <h2>Conversations with Friends</h2>
+    <div><p class="writer"> Sally Rooney</p> 
+    </div>
+    <div><p class="edition">Paperback | 2nd Edition</p> 
+    </div>
+    <div><h2>€12.90</h2> 
+    </div>
+     
+    <div>
+    <a>A blurb about the book goes here. A few sentences that are nice and easy to read. Like one that’s enticing...</a><a href="https://itgirlschool.ru/"><span style="color: Gray;"><b>read more</b></span></a></div>
+
+          <div class="buttons">
+        <a href="САЙТЫ.html" class="button1">ADD TO CART</a>
+        <a href="САЙТЫ.html" class="button2">WISHLIST</a>
+        </div>
+   
+        <div><p class="publisher"> <br>Publisher: Faber & Faber <br>Date Published: 1 March 2018 <br>ISBN13: 9780571333134</p> 
+                    <h6>Genres:</h6></div>
+    <div class="buttons2">      
+    <a href="САЙТЫ.html" class="button3">Contemporary</a>
+    <a href="САЙТЫ.html" class="button4">General Fiction</a>
+</div>
+
+    <h6>Share this book:</H6>
+      
+<div class="buttons3"> 
+     <a href="САЙТЫ.html"><img class="icon-F" img src="image/facebook.svg" alt="FB"></a>
+     <a href="САЙТЫ.html"><img class="icon-insta" src="image/instagram.svg" alt="FB"></a>
+     <a href="САЙТЫ.html"><img class="icon-twitter" src="image/twitter.svg" alt="FB"></a>
+     <a href="САЙТЫ.html"><img class="icon-letter" src="image/email.svg" alt="FB"></a>
+     <a href="САЙТЫ.html"><img class="icon-icon_last" src="image/link.svg" alt="FB"></a>
+</div>
+
+    <h3>Similar Publications:</h3>
+    
+    <div class="container">
+        <img class="img1" src="image/hands.svg" alt="hands">
+        <img class="img2" src="image/lags.svg" alt="lags">
+        <img class="img3" src="image/thirdcard.svg" alt="other">
+            <a class="name1">Promising Young Women</a>
+            <a class="name2">Careers for Women</a>
+            <a class="name3">Inside these Walls</a>
+            <a class="familyname1">Caroline O’Donoghue</a>
+            <a class="familyname2">Joanna Scott</a>
+            <a class="familyname3">Rebecca Coleman</a>
+            <a class="price1">€9.80</a>
+            <a class="price2">€10.50</a>
+            <a class="price3">€8.20</a>
+        </div>
+
+    </div>
+</body>

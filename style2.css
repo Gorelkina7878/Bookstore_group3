@@ -1,126 +1,161 @@
+.flexcontainer_head2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 48px;
+    margin: 5%;
+    padding: 10;
+    background: #f0eded;
+    box-shadow: 0px 4px 16px rgba(230, 229, 229, 0.15);
+}
+
 .pict {
-    display: block;
-    margin: 10px auto 20px;
-    width: 50%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 h2 {
-    font-family: Playfair+Display;
-    font-style: Bold;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
     font-size: 25px;
-    Line-height: 33px;
-    Line-height: 100%;
-    text-align: center
-}
+    line-height: 33px;
+    text-align: center;
 
+    color: #000000;
+}
 
 .writer {
-    Font-family: Montserrat;
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 24px;
-    Line-height: 123%;
-    text-align: center;
-}
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
 
+    text-align: center;
+
+    color: #000000;
+}
 
 .edition,
 .publisher {
-    Font-family: Montserrat;
-    Font-style: Regular;
-    Font-size: 12px;
-    Line-height: 17px;
-    Line-height: 140%;
-    text-align: center;
-    Color: Gray 3;
-    Fill: Solid #828282;
-}
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 140%;
+    /* identical to box height, or 17px */
 
+    text-align: center;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
 
 a {
     display: block;
     margin: 1px;
-    Font-family: Montserrat;
-    Font-style: Regular;
-    Font-size: 16px;
-    Line-height: 24px;
-    Line-height: 123%;
-    text-align: center;
-}
 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    text-align: center;
+    color: #000000;
+
+}
 
 .buttons {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 60%;
-    row-gap: 10%;
+    grid-template-rows: 60%;
+    grid-template-columns: 100%;
+    margin-left: 40%;
+    justify-self: stretch;
     justify-content: center;
-    align-items: flex-start;
-    justify-items: stretch;
+    row-gap: 10%;
 }
 
-
 .button1 {
-    background-color: #D96F6E;
+    display: grid;
+    justify-self: stretch;
+    justify-content: center;
+    background: #D96F6E;
     border: none;
     color: #FFFFFF;
     Font-style: Montserrat;
     Font-style: SemiBold;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .button2 {
-    background-color: #F3A492;
+    display: grid;
+    justify-self: stretch;
+    background: #F3A492;
     border: none;
     color: #FFFFFF;
     Font-style: Montserrat;
     Font-style: SemiBold;
-    border-radius: 5px;
+    border-radius: 8px;
 }
-
 
 h6 {
     font-family: Montserrat;
-    font-style: Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
-    Line-height: 20px;
-    Line-height: 100%;
+    line-height: 20px;
+    /* identical to box height */
     text-align: center;
+    /* Gray 2 */
     color: #4F4F4F;
 }
 
-
 .buttons2 {
     display: grid;
-    grid-template-columns: 25% 25%;
-    grid-template-rows: 100% 100%;
-    grid-gap: 4px;
+    grid-template-columns: 25% 10%;
+    grid-template-rows: 100%;
+    grid-gap: 0%;
+    justify-self: stretch;
     justify-content: center;
-    justify-items: stretch;
-}
 
+}
 
 .button3 {
-    background: linear-gradient(to left, #F2D05C, #F3A492);
+    background: linear-gradient(90deg, #F2D05C 0%, #F3A492 100%);
+    border-radius: 8px;
     border: none;
-    Font-style: Montserrat;
-    Font-style: SemiBold;
+    /* Body S bold */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    /* White */
     color: #FFFFFF;
-    border-radius: 5px;
 }
-
 
 .button4 {
-    background: linear-gradient(to left, #53889D, #BBD1D9);
+    /* Blue-baby */
+    background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
+    border-radius: 8px;
     border: none;
-    Font-style: Montserrat;
-    Font-style: SemiBold;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    /* White */
     color: #FFFFFF;
-    border-radius: 5px;
 }
-
-
-
 
 .buttons3 {
     display: grid;
@@ -131,58 +166,74 @@ h6 {
     justify-items: stretch;
 }
 
-
 h3 {
-    font-family: Playfair+Display;
-    font-style: Bold;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
-    Line-height: 200px;
-    Line-height: 100%;
-    text-align: center
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    /* Gray 2 */
+    color: #4F4F4F;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
 
 .name1,
 .name2,
 .name3 {
-    font-family: Playfair +Display;
-    font-style: Bold;
+    display: flex;
+    justify-content: center;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
-    Line-height: 21px;
-    Line-height: 100%;
+    line-height: 21px;
+    color: #000000;
     text-align: left;
-    padding-bottom: 20px;
-}
+    padding-bottom: 15%;
 
+}
 
 .familyname1,
 .familyname2,
 .familyname3 {
+    display: flex;
+    justify-content: center;
+    /* Body S */
     font-family: Montserrat;
-    font-style: Body S;
+    font-style: normal;
+    font-weight: normal;
     font-size: 12px;
-    Line-height: 17px;
-    Line-height: 140%;
+    line-height: 140%;
+    /* identical to box height, or 17px */
+    /* Gray 2 */
+    color: #4F4F4F;
     text-align: left;
-    Color: #4F4F4F;
-}
+    padding-bottom: 15%;
 
+}
 
 .price1,
 .price2,
 .price3 {
-    Font-family: Montserrat;
-    Font-style: SemiBold;
-    Font-size: 12px;
-    Line-height: 15px;
-    Line-height: 100%;
-    text-align: Left;
-    Vertical-align: Top;
-    Color: #D96F6E;
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    /* Blush */
+    color: #D96F6E;
+    padding-bottom: 15%;
 }
 
 .button1,
@@ -195,4 +246,14 @@ h3 {
 .button4 {
     width: 128px;
     height: 24px;
+}
+
+.flexcontainer_footer_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background: #FFFFFF;
+    box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
 }

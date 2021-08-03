@@ -1,15 +1,20 @@
 .flexcontainer_head2 {
-    height: 50px;
-    background: #f0eded;
-    box-shadow: 0px 4px 16px rgba(230, 229, 229, 0.15);
-    flex-direction: row;
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    height: 48px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
 }
 
-.reverse {
-    border: 1px solid red;
+.flexcontainer_head2 {
+    margin: 14px;
+}
+
+.fleximg_2 {
+    justify-self: start;
+    flex-grow: 1;
+    margin: 18px;
 }
 
 .pict {

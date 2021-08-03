@@ -1,12 +1,15 @@
 .flexcontainer_head2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    height: 48px;
-    margin: 5%;
-    padding: 10;
+    height: 50px;
     background: #f0eded;
     box-shadow: 0px 4px 16px rgba(230, 229, 229, 0.15);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reverse {
+    border: 1px solid red;
 }
 
 .pict {
@@ -16,50 +19,43 @@
 }
 
 h2 {
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
     font-size: 25px;
     line-height: 33px;
     text-align: center;
-
     color: #000000;
 }
 
 .writer {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     /* identical to box height, or 150% */
-
     text-align: center;
-
     color: #000000;
 }
 
 .edition,
 .publisher {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 140%;
     /* identical to box height, or 17px */
-
     text-align: center;
-
     /* Gray 3 */
-
     color: #828282;
 }
 
 a {
     display: block;
     margin: 1px;
-
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -67,7 +63,6 @@ a {
     /* or 150% */
     text-align: center;
     color: #000000;
-
 }
 
 .buttons {
@@ -87,8 +82,7 @@ a {
     background: #D96F6E;
     border: none;
     color: #FFFFFF;
-    Font-style: Montserrat;
-    Font-style: SemiBold;
+    font-family: 'Montserrat';
     border-radius: 8px;
 }
 
@@ -98,13 +92,12 @@ a {
     background: #F3A492;
     border: none;
     color: #FFFFFF;
-    Font-style: Montserrat;
-    Font-style: SemiBold;
+    font-family: 'Montserrat';
     border-radius: 8px;
 }
 
 h6 {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -122,7 +115,6 @@ h6 {
     grid-gap: 0%;
     justify-self: stretch;
     justify-content: center;
-
 }
 
 .button3 {
@@ -130,7 +122,7 @@ h6 {
     border-radius: 8px;
     border: none;
     /* Body S bold */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -146,7 +138,7 @@ h6 {
     background: linear-gradient(90deg, #53889D 0%, #BBD1D9 100%);
     border-radius: 8px;
     border: none;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
@@ -167,7 +159,7 @@ h6 {
 }
 
 h3 {
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -182,7 +174,6 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 .name1,
@@ -190,7 +181,7 @@ h3 {
 .name3 {
     display: flex;
     justify-content: center;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display';
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -198,7 +189,6 @@ h3 {
     color: #000000;
     text-align: left;
     padding-bottom: 15%;
-
 }
 
 .familyname1,
@@ -207,7 +197,7 @@ h3 {
     display: flex;
     justify-content: center;
     /* Body S */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -217,7 +207,6 @@ h3 {
     color: #4F4F4F;
     text-align: left;
     padding-bottom: 15%;
-
 }
 
 .price1,
@@ -225,7 +214,7 @@ h3 {
 .price3 {
     display: flex;
     justify-content: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 12px;

@@ -80,6 +80,7 @@ a {
     justify-content: center;
     row-gap: 10%;
 
+
 }
 
 .button1 {
@@ -91,6 +92,8 @@ a {
     color: #FFFFFF;
     font-family: 'Montserrat';
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
 }
 
 .button2 {
@@ -101,6 +104,8 @@ a {
     color: #FFFFFF;
     font-family: 'Montserrat';
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
 }
 
 h6 {
@@ -176,11 +181,15 @@ h3 {
     justify-content: center;
 }
 
-
 .button3,
 .button4 {
-    width: 128px;
+    width: 126px;
     height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
 }
 
 .container {
@@ -260,17 +269,18 @@ h3 {
         display: flex;
         grid-template-rows: auto;
         justify-content: center;
-        justify-content: center;
         min-width: 332px;
     }
 
     .buttons3 {
         display: flex;
         justify-content: center;
+
     }
 
     .container {
         overflow-x: auto;
         min-width: 332px;
+
     }
 }

@@ -244,14 +244,20 @@ p {
             padding: 10px ;
             flex-grow: 1;
         }
-    .nav {
-        min-width: 343px;
-        max-width: 343px;
-    }
-    .article {
-        min-width: 343px;
-        max-width: 343px;
-    }
+    
+
+.books,
+.book1,
+.book2,
+.book3 {
+    border: solid 1px red;
+}
+.img7,
+.img8,
+.img100,
+.img101 {
+    border: red 1px solid;
+}
 
     .nav-title {
 display: flex;
@@ -259,30 +265,33 @@ justify-content: start;
 flex-grow: 1;
 padding-left: 10px;
     }
+
 .books-title {
     display: flex;
 justify-content: start;
-flex-grow: 1;
-min-width: 343px;
-max-width: 343px;
 padding-left: 10px;
 }
 .books-link {
-    min-width: 343px;
-        max-width: 343px;
         width: 100%;
 }
-.book1 {
-    padding-left: 8px;
+.main-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 399px;
+    border: solid 1px red;
 }
 
     .books {
+        min-width: 399px;
         overflow-x: auto;
     }
 
-    .main {
-        min-width: 343px;
-        max-width: 343px;
+    .main,
+    .nav {display: flex;
+        justify-content: center;
+        min-width: 399px;
+        border: solid 1px red;
     }
     .main-link,
     .books-link {
@@ -293,8 +302,7 @@ padding-left: 10px;
     }
     
     .title {
-        min-width: 343px;
-        max-width: 343px;
+        min-width: 399px;
     }
     .picture {
         min-width: 343px;
@@ -303,8 +311,7 @@ padding-left: 10px;
     .buttons {display: flex;
         justify-content: start;
         flex-wrap: wrap;
-        min-width: 343px;
-        max-width: 343px;
+        min-width: 399px;
         padding-left: 10px;
 
     }
@@ -317,23 +324,20 @@ padding-left: 10px;
         width: 104px;
         height: 130px;
     }
-    .img7 {
-        height: 170px;
-        width: 124px;
-        padding-bottom: 20px;
-    }
-
+    
+    .img7,
     .img8,
     .img100,
     .img101 {
         height: 180px;
-        width: 124px;
+        width: 100%;
         padding-bottom: 20px;
     }
     .flexcontainer_head3 {
         display: flex;
-        min-width: 343px;
-        max-width: 343px;
+        
+        min-width: 399px;
+        border: solid 1px red;
         flex-direction: row;
         justify-content: space-between;
         height: 48px;
@@ -343,8 +347,9 @@ padding-left: 10px;
     
     .flexcontainer_footer_3 {
         display: flex;
-        min-width: 343px;
-        max-width: 343px;
+        
+        min-width: 399px;
+        border: solid 1px red;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
@@ -367,7 +372,7 @@ padding-left: 10px;
         min-width: 1023px;
         max-width: 1023px;
     }
-    
+
     .book2,
     .book1,
     .book3,

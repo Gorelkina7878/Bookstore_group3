@@ -1,21 +1,22 @@
+body {
+    margin: 0;
+}
+
 .flexcontainer_head2 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     height: 48px;
+    width: 100%;
+    margin: 0;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px rgba(78, 55, 55, 0.15);
 }
 
-.flexcontainer_head2 {
-    margin: 14px;
-}
-
 .fleximg_2 {
-    justify-self: start;
-    flex-grow: 1;
-    margin: 18px;
+    flex-grow: 0;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .pict {
@@ -80,6 +81,7 @@ a {
     justify-content: center;
     row-gap: 10%;
 
+
 }
 
 .button1 {
@@ -91,6 +93,8 @@ a {
     color: #FFFFFF;
     font-family: 'Montserrat';
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
 }
 
 .button2 {
@@ -101,6 +105,8 @@ a {
     color: #FFFFFF;
     font-family: 'Montserrat';
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
 }
 
 h6 {
@@ -176,11 +182,15 @@ h3 {
     justify-content: center;
 }
 
-
 .button3,
 .button4 {
-    width: 128px;
+    width: 126px;
     height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
 }
 
 .container {
@@ -253,4 +263,25 @@ h3 {
     height: 56px;
     background: #FFFFFF;
     box-shadow: 0px -2px 16px rgba(78, 55, 55, 0.1);
+}
+
+@media screen and (max-width: 399px) {
+    .buttons2 {
+        display: flex;
+        grid-template-rows: auto;
+        justify-content: center;
+        min-width: 332px;
+    }
+
+    .buttons3 {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .container {
+        overflow-x: auto;
+        min-width: 332px;
+
+    }
 }

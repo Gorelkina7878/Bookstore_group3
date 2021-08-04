@@ -67,7 +67,6 @@ a {
 .button5:hover,
 .button6:hover,
 .button7:hover {
-    color: blue;
     background: linear-gradient(90deg, #529dbb 0%, #839297 100%)
 }
 
@@ -306,7 +305,6 @@ padding-left: 10px;
     }
     .picture {
         min-width: 343px;
-        max-width: 343px;
     }
     .buttons {display: flex;
         justify-content: start;
@@ -522,9 +520,6 @@ padding-left: 10px;
 
 
 @media screen and (min-width: 1024px) {
-
-
-
     .button1,
     .button2,
     .button3,
@@ -554,10 +549,11 @@ padding-left: 10px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    border: solid 1px red;
 }
 
 .nav {
-    min-width: 1500px;
+    min-width: 1024px;
 }
 .books {
     display: flex;
@@ -568,11 +564,11 @@ padding-left: 10px;
         width: 100%;
     }
     .main {
-        min-width: 1500px;
+        min-width: 1024px;
     }
     .article,
     .main-images {
-        min-width: 1500px;
+        min-width: 1024px;
     }
     .img1,
     .img2,
@@ -611,7 +607,7 @@ padding-left: 10px;
         display: flex;
         justify-content: center;
         width: 100%;
-        min-width: 1500px;
+        min-width: 1024px;
         padding-top: 30px;
     }
     .main-title{
@@ -623,21 +619,27 @@ padding-left: 10px;
 .main-images {
     display: flex;
     justify-content: center;
-    flex-grow: 1;
-    min-width: 1500px;
+    min-width: 1024px;
 }
     .title {
-        min-width: 1500px;
+        min-width: 1024px;
     }
     .picture {
-        min-width: 1500px;
+        min-width: 1024px;
     }
     
+    .main {
+        min-width: 1024px;
+        overflow-x: scroll;
+    }
+    .main-images {
+        border: solid 1px red;
+    }
+
     .flexcontainer_head3 {
         display: flex;
         border: red 1px solid;
-        min-width: 1500px;
-        max-width: 1500px;
+        min-width: 1024px;
         flex-direction: row;
         justify-content: space-between;
         height: 48px;
@@ -647,7 +649,7 @@ padding-left: 10px;
     .flexcontainer_footer_3 {
         display: flex;
         width: 300px;
-        min-width: 1500px;
+        min-width: 1024px;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
